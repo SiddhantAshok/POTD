@@ -61,9 +61,25 @@ namespace CSharpFeatures
 
             #endregion
 
-            string smallestString = LexicographicallySmallestString.GetSmallestString("45320");
-            Console.WriteLine(smallestString);
 
+            #region Lexicographically Smallest String
+            //string smallestString = LexicographicallySmallestString.GetSmallestString("45320");
+            //Console.WriteLine(smallestString);
+            #endregion
+
+            #region Number of Atoms
+            string counts = NumberOfAtoms.CountOfAtoms("Mg(OH)2");
+            Console.WriteLine(counts);
+
+            //Dictionary<string, int> map = new Dictionary<string, int>();
+
+            //map["hello"] = 0;
+            //map["hello"] = 1;
+            //foreach (var item in map)
+            //{
+            //    Console.WriteLine(item.Key + item.Value);
+            //}
+            #endregion
 
             Console.ReadLine();
 
