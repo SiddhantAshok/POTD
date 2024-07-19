@@ -68,8 +68,8 @@ namespace CSharpFeatures
             #endregion
 
             #region Number of Atoms
-            string counts = NumberOfAtoms.CountOfAtoms("Mg(OH)2");
-            Console.WriteLine(counts);
+            //string counts = NumberOfAtoms.CountOfAtoms("Mg(OH)2");
+            //Console.WriteLine(counts);
 
             //Dictionary<string, int> map = new Dictionary<string, int>();
 
@@ -79,6 +79,127 @@ namespace CSharpFeatures
             //{
             //    Console.WriteLine(item.Key + item.Value);
             //}
+            #endregion
+
+
+            #region Call for AWT 
+            //int[][] customers = new int[6][];
+            ////customers[0] = new int[] { 1, 2 }; // First customer's waiting times
+            ////customers[1] = new int[] { 2, 5 };    // Second customer's waiting times
+            ////customers[2] = new int[] { 4, 3 };  //[[5,2],[5,4],[10,3],[20,1]]
+
+            ////[[2,3],[6,3],[7,5],[11,3],[15,2],[18,1]]
+
+            //customers[0] = new int[] { 2, 3 };
+            //customers[1] = new int[] { 6, 3 };
+            //customers[2] = new int[] { 7, 5 };
+            //customers[3] = new int[] { 11, 3 };
+            //customers[4] = new int[] { 15, 2 };
+            //customers[5] = new int[] { 18, 1 };
+            //Console.WriteLine(AWT.AverageWaitingTime(customers));
+            #endregion
+
+            #region Reverse the substring between Parentheses
+            //var reverseString = ReverseStringBetweenParenthesis.ReverseParentheses("(ed(et(oc))el)");
+
+            //Console.WriteLine(reverseString);
+            #endregion
+
+            #region Create Binary tree based on Description 2D Array
+
+            //int[][] array = new int[][]
+            //    {
+            //        new int[] { 20, 15, 1 },
+            //        new int[] { 20, 17, 0 },
+            //        new int[] { 50, 20, 1 },
+            //        new int[] { 50, 80, 0 },
+            //        new int[] { 80, 19, 1 }
+            //    };
+
+            //int[][] array = new int[][]
+            //{
+            //    new int[] { 85, 82, 1 },
+            //    new int[] { 74, 85, 1 },
+            //    new int[] { 39, 70, 0 },
+            //    new int[] { 82, 38, 1 },
+            //    new int[] { 74, 39, 0 },
+            //    new int[] { 39, 13, 1 }
+            //};
+
+
+            //CreateBinaryTree create = new CreateBinaryTree();
+            //create.CreateBinaryTreeByDescription(array);
+            #endregion
+
+            #region Binary Tree Traversal
+
+            //TreeNode treeNode = new TreeNode
+            //{
+            //    val = 50,
+            //    left = new TreeNode
+            //    {
+            //        val = 10,
+            //        left = new TreeNode
+            //        {
+            //            val = 5,
+            //            left = null,
+            //            right = null
+            //        },
+            //        right = new TreeNode
+            //        {
+            //            val = 15,
+            //            left = null,
+            //            right = null
+            //        },
+            //    },
+            //    right = new TreeNode
+            //    {
+            //        val = 90,
+            //        left = new TreeNode
+            //        {
+            //            val = 70,
+            //            left = null,
+            //            right = null
+            //        },
+            //        right = new TreeNode
+            //        {
+            //            val = 95,
+            //            left = null,
+            //            right = new TreeNode
+            //            {
+            //                val = 97,
+            //                left = null,
+            //                right = null
+            //            },
+            //        }
+            //    }
+            //};
+
+            //BinaryTreeTraversal tree = new BinaryTreeTraversal();
+            //var nodeValues = tree.InorderTraversal(treeNode);
+
+            //foreach (var item in nodeValues)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
+            #region Return Lucky Numbers
+            //[[3,7,8],[9,11,13],[15,16,17]]
+
+            int[][] array = new int[][]
+            {
+                new int[] { 3,7,8 },
+                new int[] { 9,11,13 },
+                new int[] { 15,16,17 }
+            };
+
+            var luckyNumbers = LuckyNumbersinaMatrix.LuckyNumbersByGPT(array);
+
+            foreach (var item in luckyNumbers)
+            {
+                Console.WriteLine(item);
+            }
             #endregion
 
             Console.ReadLine();
