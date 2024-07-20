@@ -82,7 +82,7 @@ namespace CSharpFeatures
             #endregion
 
 
-            #region Call for AWT 
+            #region Call for AWT
             //int[][] customers = new int[6][];
             ////customers[0] = new int[] { 1, 2 }; // First customer's waiting times
             ////customers[1] = new int[] { 2, 5 };    // Second customer's waiting times
@@ -200,6 +200,35 @@ namespace CSharpFeatures
             {
                 Console.WriteLine(item);
             }
+            #endregion
+
+            #region Set Matrix Zeros
+            //int[][] matrix = new int[][]
+            //{
+            //    new int[] { 1, 1, 1 },
+            //    new int[] { 1, 0, 1 },
+            //    new int[] { 1, 1, 1 }
+            //};
+
+            //SetMatrixZeroes.SetZeroes(matrix);
+            #endregion
+
+            #region Find the matrix on the given row sum and column sum arrays
+
+            int[] rowSum = new int[] { 3, 8 };
+            int[] colSum = new int[] { 4, 7 };
+            FindValidMatrixGivenRowandColumnSums.RestoreMatrix(rowSum, colSum);
+            #endregion
+
+            #region Find the winning Player
+            //Console.WriteLine(FindtheWinningPlayerinCoin.LosingPlayer(2, 7));
+
+            #endregion
+
+            #region Minimum Length of String After Operation
+            //Console.WriteLine(MinimumLengthofStringAfterOperations.MinimumLength("abaacbcbb"));
+            //Console.WriteLine(MinimumLengthofStringAfterOperations.MinimumLength("htukrysju"));
+            //Console.WriteLine(MinimumLengthofStringAfterOperations.MinimumLength("aa"));
             #endregion
 
             Console.ReadLine();
