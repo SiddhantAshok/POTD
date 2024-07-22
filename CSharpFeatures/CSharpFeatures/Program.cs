@@ -232,9 +232,18 @@ namespace CSharpFeatures
             #endregion
 
             #region Number of Bit Changes to Make Two Integers Equal
-            Console.WriteLine(NumberofBitChangestoMakeTwoIntegersEqual.MinChanges(13, 4));
+            //Console.WriteLine(NumberofBitChangestoMakeTwoIntegersEqual.MinChanges(13, 4));
             #endregion
 
+
+            #region Sort the people
+            var sortedPeople = SortthePeople.SortPeople(new[] { "Mary", "John", "Emma" }, new[] { 180, 165, 170 });
+
+            foreach (var person in sortedPeople)
+            {
+                Console.WriteLine(person);
+            }
+            #endregion
             Console.ReadLine();
 
         }
