@@ -187,19 +187,19 @@ namespace CSharpFeatures
             #region Return Lucky Numbers
             //[[3,7,8],[9,11,13],[15,16,17]]
 
-            int[][] array = new int[][]
-            {
-                new int[] { 3,7,8 },
-                new int[] { 9,11,13 },
-                new int[] { 15,16,17 }
-            };
+            //int[][] array = new int[][]
+            //{
+            //    new int[] { 3,7,8 },
+            //    new int[] { 9,11,13 },
+            //    new int[] { 15,16,17 }
+            //};
 
-            var luckyNumbers = LuckyNumbersinaMatrix.LuckyNumbersByGPT(array);
+            //var luckyNumbers = LuckyNumbersinaMatrix.LuckyNumbersByGPT(array);
 
-            foreach (var item in luckyNumbers)
-            {
-                Console.WriteLine(item);
-            }
+            //foreach (var item in luckyNumbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
             #region Set Matrix Zeros
@@ -215,9 +215,9 @@ namespace CSharpFeatures
 
             #region Find the matrix on the given row sum and column sum arrays
 
-            int[] rowSum = new int[] { 3, 8 };
-            int[] colSum = new int[] { 4, 7 };
-            FindValidMatrixGivenRowandColumnSums.RestoreMatrix(rowSum, colSum);
+            //int[] rowSum = new int[] { 3, 8 };
+            //int[] colSum = new int[] { 4, 7 };
+            //FindValidMatrixGivenRowandColumnSums.RestoreMatrix(rowSum, colSum);
             #endregion
 
             #region Find the winning Player
@@ -229,6 +229,10 @@ namespace CSharpFeatures
             //Console.WriteLine(MinimumLengthofStringAfterOperations.MinimumLength("abaacbcbb"));
             //Console.WriteLine(MinimumLengthofStringAfterOperations.MinimumLength("htukrysju"));
             //Console.WriteLine(MinimumLengthofStringAfterOperations.MinimumLength("aa"));
+            #endregion
+
+            #region Number of Bit Changes to Make Two Integers Equal
+            Console.WriteLine(NumberofBitChangestoMakeTwoIntegersEqual.MinChanges(13, 4));
             #endregion
 
             Console.ReadLine();
