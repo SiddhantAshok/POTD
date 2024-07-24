@@ -237,11 +237,21 @@ namespace CSharpFeatures
 
 
             #region Sort the people
-            var sortedPeople = SortthePeople.SortPeople(new[] { "Mary", "John", "Emma" }, new[] { 180, 165, 170 });
+            //var sortedPeople = SortthePeople.SortPeople(new[] { "Mary", "John", "Emma" }, new[] { 180, 165, 170 });
 
-            foreach (var person in sortedPeople)
+            //foreach (var person in sortedPeople)
+            //{
+            //    Console.WriteLine(person);
+            //}
+            #endregion
+
+
+            #region Move Zeros at the end
+            int[] rowSum = new int[] { 3, 8, 0, 1, 0, 2, 0, 3 };
+            MoveZeroes.MoveZeroesAtEnd(ref rowSum);
+            foreach (int row in rowSum)
             {
-                Console.WriteLine(person);
+                Console.WriteLine(row);
             }
             #endregion
             Console.ReadLine();
