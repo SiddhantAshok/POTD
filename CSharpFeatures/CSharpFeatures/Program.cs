@@ -1,5 +1,6 @@
 ﻿using CSharpFeatures.CollectionsManupulation;
 using CSharpFeatures.ImmutableClasses;
+using CSharpFeatures.InterviewCodingQuestions.InQ_QukkoLabs;
 using CSharpFeatures.InterviewCodingQuestions.LeetCodeDaily;
 using CSharpFeatures.StaticAndInstanceConstructorInAClass;
 using System;
@@ -247,13 +248,52 @@ namespace CSharpFeatures
 
 
             #region Move Zeros at the end
-            int[] rowSum = new int[] { 3, 8, 0, 1, 0, 2, 0, 3 };
-            MoveZeroes.MoveZeroesAtEnd(ref rowSum);
-            foreach (int row in rowSum)
-            {
-                Console.WriteLine(row);
-            }
+            //int[] rowSum = new int[] { 3, 8, 0, 1, 0, 2, 0, 3 };
+            //MoveZeroes.MoveZeroesAtEnd(ref rowSum);
+            //foreach (int row in rowSum)
+            //{
+            //    Console.WriteLine(row);
+            //}
             #endregion
+
+
+            #region Find the Number of Not Special Numbers
+            //int count = FindtheCountofNumbersWhichAreNotSpecial.NonSpecialCount(1, 3);
+
+            //Console.WriteLine(count);
+            #endregion
+
+            #region Design Neighbor Sum Service
+            ////int[][] grid = new int[][]
+            ////{
+            ////    new int[] { 0,1,2 },
+            ////    new int[] { 3,4,5 },
+            ////    new int[] { 6,7,8 }
+            ////};
+
+            //int[][] grid = new int[][]
+            //{
+            //    new int[] { 3,6,0 },
+            //    new int[] { 8,5,1 },
+            //    new int[] { 2,4,7 }
+            //};
+
+            //neighborSum obj = new neighborSum(grid);
+            ////int param_1 = obj.AdjacentSum(1);
+            ////int param_12 = obj.AdjacentSum(8);
+            //int param_2 = obj.DiagonalSum(2);
+            //int param_22 = obj.DiagonalSum(6);
+
+            ////Console.WriteLine(param_1 + " " + param_12 + " " + param_2 + " " + param_22);
+            //Console.WriteLine( param_2 + " " + param_22);
+            #endregion
+
+            #region
+
+            DrawPattern.Draw(9);
+
+            #endregion
+
             Console.ReadLine();
 
         }
