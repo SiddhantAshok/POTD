@@ -1,4 +1,5 @@
 ﻿using CSharpFeatures.CollectionsManupulation;
+using CSharpFeatures.Features.CallingBehaviours;
 using CSharpFeatures.ImmutableClasses;
 using CSharpFeatures.InterviewCodingQuestions.InQ_QukkoLabs;
 using CSharpFeatures.InterviewCodingQuestions.LeetCodeDaily;
@@ -290,14 +291,65 @@ namespace CSharpFeatures
 
             #region
 
-            DrawPattern.Draw(9);
+            //DrawPattern.Draw(9);
 
             #endregion
+
+
+            #region Different ways to call a method in C#
+            //Parent parent = new Parent();
+            //parent.age = 30;
+            //parent.name = "John";
+            //parent.surname = "Wick";
+            ////parent.Height //not accessible
+            //Console.WriteLine($"{parent.ParentIntroduction()} : {parent.GetParentName()}");
+
+            //Console.WriteLine("-----" + Environment.NewLine);
+
+            //Child child = new Child();
+            //child.name = "Doe";
+            //child.age = 10;
+            //child.height = 5;
+            //child.surname = "Butcher";
+            //Console.WriteLine($"{child.ChildIntroduction()} : {child.GetChildName()} : {child.GetParentName()} : {child.ParentIntroduction()}");
+
+            //Console.WriteLine("-----" + Environment.NewLine);
+
+            //Parent parent1 = new Child();
+            //parent1.age = 40;
+            //parent1.name = "Jane";
+            //parent1.surname = "Doe";
+            ////parent1.Height not accessible
+            //Console.WriteLine($"{parent1.ParentIntroduction()} : {parent1.GetParentName()}");
+
+            //Console.WriteLine("-----" + Environment.NewLine);
+
+            //Child child1 = new Parent(); //Throwing Error
+            //Child child1 = new Parent() as Child;   //Throwing Error
+            //child1.name = "Darcy";
+            //child1.age = 20;
+            //child1.height = 6;
+            //child1.surname = "Doe";
+            //Console.WriteLine($"{child1.ChildIntroduction()} : {child1.GetChildName()} : {child1.GetParentName()} : {child1.ParentIntroduction()}");
+            #endregion
+
+            //dynamic dyn = 10;
+            //dyn = "Hello"; // Allowed because the type is dynamic
+
+            //var var1 = 10;
+            //var1 = "Hello"; // Not allowed because the type is var
+
+            #region Leet Code Problem | Array | 1. Two Sum
+            _1TwoSum sum = new _1TwoSum();
+            var indexes = sum.TwoSum(new int[] { 3, 3 }, 6);
+            Console.WriteLine($"{indexes[0]} : {indexes[1]}");
+
+            #endregion
+
 
             Console.ReadLine();
 
         }
-
 
 
 
