@@ -2,7 +2,7 @@
 using CSharpFeatures.Features.CallingBehaviours;
 using CSharpFeatures.ImmutableClasses;
 using CSharpFeatures.InterviewCodingQuestions.InQ_QukkoLabs;
-using CSharpFeatures.InterviewCodingQuestions.LeetCodeDaily;
+using CSharpFeatures.InterviewCodingQuestions.LeetCodeDaily.Arrays;
 using CSharpFeatures.StaticAndInstanceConstructorInAClass;
 using System;
 using System.Collections.Generic;
