@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpFeatures.InterviewCodingQuestions.LeetCodeDaily
+namespace CSharpFeatures.InterviewCodingQuestions.LeetCodeDaily.Arrays
 {
     //LeetCode 1. TwoSum
     internal class _1TwoSum
@@ -18,7 +18,7 @@ namespace CSharpFeatures.InterviewCodingQuestions.LeetCodeDaily
                         return new int[] { first, second };
                     }
                 }
-               
+
             }
             return null;
         }
